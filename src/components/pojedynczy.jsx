@@ -73,7 +73,7 @@ class Pojedynczy extends React.Component {
           <div>Render new time</div>
         </div>
         <div className="lista">
-          <ol className="query" ></ol>
+          <div className="query" ></div>
         </div>
       </div>
     );
