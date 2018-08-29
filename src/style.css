@@ -1,0 +1,117 @@
+
+::-moz-selection { /* Code for Firefox */
+  color:#aaaaaa;
+}
+
+::selection {
+    color:#aaaaaa;
+}
+
+body
+{
+  background-color:#262626;
+  color:#ffffff;
+  font-family:sans-serif;
+  font-size:26px;
+  margin:0!important;
+  width:100%;
+}
+
+.container
+{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.zegar
+{
+  width:1000px;
+  font-size:48px;
+  text-align:center;
+}
+
+.click
+{
+  max-width:600px;
+  font-size:40px;
+  height:60px;
+  background-color:#ffffff;
+  color:#123122;
+  border:none;
+  outline:none;
+  margin-top:40px;
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.click:hover
+{
+background-color:#123122;
+color:#ffffff;
+cursor:pointer;
+}
+
+.lista
+{
+background-color:#cccccc;
+color:black;
+font-size:28px;
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+margin-top:20px;
+min-height:400px;
+text-align:center;
+}
+.query
+{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+
+}
+.fa
+{
+  float:right;
+  margin-left:5px;
+}
+.fa:hover
+{
+  cursor:pointer;
+  color:red;
+}
+
+.remove
+{
+  display:flex;
+  flex-direction:column;
+}
+
+.element
+{
+  display:flex;
+  flex-direction:row;
+}
+@media all and (max-width:1000px)
+{
+  .zegar
+  {
+    width:100%;
+  }
+}
+
+@media all and (max-width:400px)
+{
+.click
+{
+  font-size:20px;
+}
+}
